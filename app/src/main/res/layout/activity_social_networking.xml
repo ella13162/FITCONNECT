@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <!-- Social Media Platform Title -->
+        <TextView
+            android:id="@+id/socialMediaPlatformTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FitChat - Connect, Share, Achieve!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- User 1 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#f5f5f5"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/user1Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Doe"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#34495E" />
+
+            <Button
+                android:id="@+id/startConversationBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start a Conversation"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/user1Goals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily Goals: Run 5km, Drink 2L of water."
+                android:textSize="16sp"
+                android:textColor="#34495E"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/user1Achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achievements: Completed 20 consecutive workouts."
+                android:textSize="16sp"
+                android:textColor="#34495E"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <!-- User 2 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#f5f5f5"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/user2Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alice Smith"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#34495E" />
+
+            <Button
+                android:id="@+id/startConversationBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start a Conversation"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/user2Goals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily Goals: Yoga session, Eat healthy."
+                android:textSize="16sp"
+                android:textColor="#34495E"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/user2Achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achievements: Lost 3kg in 2 weeks."
+                android:textSize="16sp"
+                android:textColor="#34495E"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <!-- User 3 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#f5f5f5"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:id="@+id/user3Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bob Johnson"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#34495E" />
+
+            <Button
+                android:id="@+id/startConversationBtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start a Conversation"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/user3Goals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily Goals: 10,000 steps, Hydrate well."
+                android:textSize="16sp"
+                android:textColor="#34495E"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/user3Achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achievements: Walked 50,000 steps this week!"
+                android:textSize="16sp"
+                android:textColor="#34495E"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <!-- User 4 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#f5f5f5"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:id="@+id/user4Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emma Davis"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#34495E" />
+
+            <Button
+                android:id="@+id/startConversationBtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start a Conversation"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/user4Goals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily Goals: Strength training, Eat 3 meals."
+                android:textSize="16sp"
+                android:textColor="#34495E"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/user4Achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achievements: Increased deadlift by 10kg."
+                android:textSize="16sp"
+                android:textColor="#34495E"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <!-- User 5 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#f5f5f5"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:id="@+id/user5Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sophia Lee"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#34495E" />
+
+            <Button
+                android:id="@+id/startConversationBtn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start a Conversation"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/user5Goals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daily Goals: Swim 30 mins, Stretching."
+                android:textSize="16sp"
+                android:textColor="#34495E"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/user5Achievements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Achievements: Swam 1km today."
+                android:textSize="16sp"
+                android:textColor="#34495E"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

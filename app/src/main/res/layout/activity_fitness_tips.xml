@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/fitnessTipsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fitness Tips"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"/>
+
+        <!-- Fitness Tips List -->
+        <TextView
+            android:id="@+id/fitnessTip1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Drink plenty of water throughout the day."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/fitnessTip2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Get at least 7-8 hours of sleep each night."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/fitnessTip3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Include strength training exercises in your workout."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/fitnessTip4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Warm up before and cool down after exercise."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/fitnessTip5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Incorporate flexibility and mobility exercises."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/fitnessTip6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Eat a balanced diet with sufficient protein intake."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/fitnessTip7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Stay consistent with your workout routine."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/fitnessTip8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Focus on form and technique during exercises."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/fitnessTip9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Track your progress and celebrate small wins."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/fitnessTip10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Stay motivated and surround yourself with supportive people."
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+</ScrollView>

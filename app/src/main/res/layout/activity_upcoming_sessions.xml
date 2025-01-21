@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/img_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upcoming Sessions"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Session 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_input"
+            android:padding="16dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Session 1: Full Body Workout"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: 2024-12-25"
+                android:textSize="16sp"
+                android:textColor="#666" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 10:00 AM"
+                android:textSize="16sp"
+                android:textColor="#666" />
+
+            <Button
+                android:id="@+id/btnJoinSession1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join Session"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#2196F3"
+                android:textColor="#FFF" />
+        </LinearLayout>
+
+        <!-- Session 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_input"
+            android:padding="16dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Session 2: Yoga for Beginners"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: 2024-12-26"
+                android:textSize="16sp"
+                android:textColor="#666" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 8:00 AM"
+                android:textSize="16sp"
+                android:textColor="#666" />
+
+            <Button
+                android:id="@+id/btnJoinSession2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join Session"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#2196F3"
+                android:textColor="#FFF" />
+        </LinearLayout>
+
+        <!-- Session 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_input"
+            android:padding="16dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Session 3: Strength Training"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: 2024-12-27"
+                android:textSize="16sp"
+                android:textColor="#666" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 9:00 AM"
+                android:textSize="16sp"
+                android:textColor="#666" />
+
+            <Button
+                android:id="@+id/btnJoinSession3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join Session"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#2196F3"
+                android:textColor="#FFF" />
+        </LinearLayout>
+
+        <!-- Session 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_input"
+            android:padding="16dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Session 4: Cardio Blast"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: 2024-12-28"
+                android:textSize="16sp"
+                android:textColor="#666" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 7:00 AM"
+                android:textSize="16sp"
+                android:textColor="#666" />
+
+            <Button
+                android:id="@+id/btnJoinSession4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join Session"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#2196F3"
+                android:textColor="#FFF" />
+        </LinearLayout>
+
+        <!-- Session 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_input"
+            android:padding="16dp"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Session 5: HIIT Workout"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: 2024-12-29"
+                android:textSize="16sp"
+                android:textColor="#666" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 11:00 AM"
+                android:textSize="16sp"
+                android:textColor="#666" />
+
+            <Button
+                android:id="@+id/btnJoinSession5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join Session"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#2196F3"
+                android:textColor="#FFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

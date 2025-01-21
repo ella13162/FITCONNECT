@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="quickBookingButton" type="id" />
+    <item name="homepageTitle" type="id" />
+    <item name="upcomingSessionsButton" type="id" />
+    <item name="fitnessTipsButton" type="id" />
+    <item name="socialNetworkingButton" type="id" />
+    <item name="helpSupportButton" type="id" />
+    <item name="helpTitle" type="id" />
+    <item name="helpDescription" type="id" />
+    <item name="faqButton" type="id" />
+    <item name="contactSupportButton" type="id" />
+    <item name="fitnessTipsTextVie" type="id" />
+    <item name="fitnessTipsTextView" type="id" />
+    <item name="paymentOptionsGroup" type="id" />
+    <item name="paymentCreditCard" type="id" />
+    <item name="paymentNetBanking" type="id" />
+    <item name="paymentGooglePay" type="id" />
+    <item name="paymentDigitalWallet" type="id" />
+</resources>

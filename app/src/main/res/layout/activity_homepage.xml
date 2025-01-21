@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img_1">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="269dp"
+        android:layout_height="245dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img" />
+    <!-- Title/Heading for the HomePage -->
+    <TextView
+        android:id="@+id/homepageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to FitConnect!"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+
+    <!-- Quick Booking Button -->
+    <Button
+        android:id="@+id/quickBookingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quick Booking"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Upcoming Sessions and Reminders Button -->
+    <Button
+        android:id="@+id/upcomingSessionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upcoming Sessions and Reminders"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Fitness Tips Button -->
+    <Button
+        android:id="@+id/fitnessTipsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fitness Tips"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Social Networking Page Button -->
+    <Button
+        android:id="@+id/socialNetworkingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social Networking Page"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Help and Support Button -->
+    <Button
+        android:id="@+id/helpSupportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help and Support"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
